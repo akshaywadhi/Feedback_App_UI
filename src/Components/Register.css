@@ -1,0 +1,48 @@
+.form-wrapper{
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+ 
+    
+}
+
+.bggrad{
+    background-image: url(./img/2148518427.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size:cover;
+    background-color: rgb(147, 147, 147);
+    background-blend-mode:multiply;
+    color:white;
+   overflow: hidden;
+    
+}
+
+
+.radius2{
+    border-radius:30px;
+}
+
+input{
+    height: 55px;
+}
+
+
+.img{
+   width:40%;
+    max-height: 40%;
+    border:none !important;
+    background: transparent !important;
+}
+
+.marginreg{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 0px) and (max-width: 720px) { 
+    .img{
+        display:none;
+    }
+ }

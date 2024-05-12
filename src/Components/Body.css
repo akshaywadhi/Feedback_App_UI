@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap');
+@import '/./node_modules/scroll-carousel/dist/scroll.carousel.min.css';
+
+
+
+.justice{
+    display:flex;
+    justify-content: space-around;
+    margin-top:5%;
+    background: transparent;
+    border-radius: 20px;
+}
+.badge{
+    background-color: rgb(66, 69, 70);
+}
+.container{
+    min-width: 100%;
+}
+.custom-img {
+    max-width: 300px;
+    max-height: 170px; 
+  }
+
+.iconsize{
+    font-size : 6rem;
+    color:rgb(55, 172, 104);
+}
+
+.grade{
+    background-color: black !important;
+    color:white !important;
+    padding:0px !important;
+}
+
+.linear{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    width: 100%;
+    color:white;
+}
+
+.grey{
+    color:white;
+}
+
+.backgrade{
+    background-image:url(./img/top-view-paper-cupboard.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(143, 142, 142);
+    background-blend-mode:multiply;
+    color:white;
+    
+}
+
+.jersy{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.custom-img2 {
+    animation: rotateAnimation 5s linear infinite;
+}
+
+.transparent{
+background-color: #0095f8;
+}
+
+.bg-filter{
+backdrop-filter: blur(20px);
+border-radius: 10px;
+padding :20px;
+}
+
+.radius{
+    max-height: 250px;
+    max-width: 200px;
+    background: transparent !important;
+    border:none !important;
+}
+
+.margin-top{
+    margin-top: 8%;
+}
+
+.display{
+    font-size: 30px;
+}
+
+.width{
+    width: 100%;
+}
+
+.footer{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

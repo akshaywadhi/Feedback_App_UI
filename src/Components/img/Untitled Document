@@ -1,0 +1,17 @@
+    
+   
+    // fetch('https://feedback-10879-default-rtdb.asia-southeast1.firebasedatabase.app/feedback.json',{
+    //   method : 'POST',
+    //   headers : {
+    //     'Content-Type' : 'application/json'
+    //   },
+    //   body : JSON.stringify({
+    //     name : user_name,
+    //     email : user_email,
+    //     comp : user_comp,
+    //     country : user_country,
+    //     text : user_city
+    //   })
+
+    // } )
+

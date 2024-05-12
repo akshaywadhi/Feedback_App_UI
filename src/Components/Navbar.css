@@ -1,0 +1,30 @@
+.gradient-bg{
+    background-image: linear-gradient(to right,black 78% , #000c69 0%);
+    
+    
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+  }
+
+.brand.navbar-brand{
+    color:white;
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.transparent{
+    background-color: rgb(61, 61, 61) !important;
+    overflow: hidden;
+}
+
+.fit{
+    max-width:fit-content;
+}
